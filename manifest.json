@@ -1,20 +1,19 @@
 {
 
   "manifest_version": 2,
-  "name": "Youtoube Input Focuser",
+  "name": "Youtube Input Focuser",
   "version": "1.0",
 
   "description": "Automatically focus on search input when visiting any youtube link",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/search.svg"
   },
 
   "content_scripts": [
     {
       "matches": ["*://*.youtube.com/*"],
-      "js": ["focus.js"],
-      "run_at": "document_end"
+      "js": ["focus.js"]
     }
   ]
 

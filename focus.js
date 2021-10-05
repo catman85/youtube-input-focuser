@@ -1,3 +1,5 @@
-const selector = "input";
-const inputElement = document.querySelector(selector);
-inputElement.focus();
+(function () {
+    const selector = "input";
+    const inputElement = document.querySelector(selector);
+    inputElement.focus();
+})();
